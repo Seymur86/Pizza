@@ -1,0 +1,436 @@
+@import url('./reset.css');
+@import url('./font.css');
+
+body {
+    background-image: url('../img/cover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 700px;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+}
+
+.head img {
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    margin-left: 80px;
+}
+
+.head h1 {
+    font-size: 40px;
+    color: goldenrod;
+    font-family: Quicksand;
+    padding-bottom: 20px;
+}
+
+header a {
+    margin-left: 207px;
+    margin-top: 70px;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    padding: 16px 20px;
+    border-radius: 20px;
+    text-align: center;
+    background: #fd6464;
+    color: white;
+    height: 50px;
+    width: 180px;
+}
+
+.main-container {
+    width: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-main-section,
+.second-main-section,
+.third-main-section,
+.fourth-main-section,
+.fifth-main-section,
+.sixth-main-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 700px;
+    height: auto;
+    background-color: #fd6464;
+}
+
+.third-main-section,
+.fourth-main-section,
+.fifth-main-section,
+.sixth-main-section {
+
+    background-color: lightgrey;
+}
+
+.second-main-section {
+    background-color: #ffffff;
+}
+
+.first-main-section h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 30px;
+    line-height: 46px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.first-main-section p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    width: 600px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.second-main-section h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    width: 700px;
+    margin-top: 30px;
+}
+
+.three-boxes {
+    display: flex;
+    gap: 40px;
+}
+
+.first-box,
+.second-box,
+.third-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.first-box img,
+.second-box img,
+.third-box img {
+    width: 180px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.first-box h3,
+.second-box h3,
+.third-box h3 {
+    color: #000000;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 150px;
+    margin-left: 30px;
+}
+
+.first-box span,
+.second-box span,
+.third-box span {
+    color: #72b314;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: normal;
+    margin-left: 70px;
+}
+
+.first-box p,
+.second-box p,
+.third-box p {
+    color: #999999;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: normal;
+    width: 180px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.first-box a,
+.second-box a,
+.third-box a {
+    width: 120px;
+    height: 50px;
+    background-color: #72b314;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.third-main-section h3 {
+    color: #000000;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.second-boxes {
+    display: flex;
+    margin-left: 40px;
+}
+
+.second-main-box1,
+.second-main-box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.second-main-box1 img,
+.second-main-box2 img {
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.second-main-box1 h4,
+.second-main-box2 h4 {
+    color: #000000;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.second-main-box1 p,
+.second-main-box2 p {
+    color: #999999;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: normal;
+    width: 250px;
+    margin-left: 30px;
+}
+
+.second-main-box1 a,
+.second-main-box2 a {
+    width: 170px;
+    height: 50px;
+    background: #fd6464;
+    color: #ffffff;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    padding: 18px 22px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.fourth-main-section {
+    padding: 50px 30px;
+    gap: 20px;
+    background-color: #ffffff;
+}
+
+.fourth-main-section h4 {
+    color: #000000;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.fourth-main-section p {
+    color: #999999;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.fifth-main-section,
+.sixth-main-section {
+    background-color: #fd6464;
+    width: 700px;
+    height: 200px;
+    gap: 30px;
+}
+
+.fifth-main-section h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 30px;
+    line-height: 46px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.fifth-main-section p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    width: 500px;
+    margin: 0px 100px;
+}
+
+.sixth-main-section {
+    height: auto;
+    background-color: #ffffff;
+    padding: 50px 50px;
+}
+
+.sixth-main-section h5 {
+    color: #000000;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.sixth-main-section p {
+    color: #999999;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.contact-final {
+    display: flex;
+    margin-top: 30px;
+}
+
+.final-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.final-contact span {
+    color: #999999;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.contact-final .second-a {
+    margin-left: 100px;
+}
+
+.contact-final2 {
+    display: flex;
+}
+
+.contact-final2 a {
+    color: #999999;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(236, 236, 236);
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+.social {
+    display: flex;
+    gap: 30px;
+    padding: 50px 200px;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.linkedin {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    padding-left: 13px;
+    padding-top: 12px;
+}
+
+.instagram {
+    padding-left: 12px;
+}
+
+.final-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.final-text span {
+    color: #999999;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.created {
+    color: #999999;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 40px 220px;
+}
+
+.created strong {
+    color: #fd6464;
+}
